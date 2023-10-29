@@ -1,5 +1,13 @@
+:root {
+	--font-principal: #daa520;
+	--font-escura: #ae841a;
+}
 * {
 	font-family: 'Cinzel', serif;
+}
+html {
+	height: 100vh;
+	width: 100vw	;
 }
 .cab {
 	display: flex;
@@ -10,8 +18,8 @@
 	height: 15vh;
 }
 .fot {
-	width: 16vw;
-	height: 14vh;
+	/* width: 16vw;
+	height: 14vh; */
 	transition: .3s;
 }
 .fot:hover {
@@ -32,75 +40,79 @@ nav li {
 nav a {
 	display: inline-block;
     text-transform: uppercase;
-    color: #b8860b;
+    color: var(--font-principal);
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5vw;
     text-decoration: none;
     transition: .5s;
 }
 nav a:hover {
-    color: #daa520;
+    color: var(--font-escura);
     text-decoration: underline;
     transform: scale(1.1);
 }
 form {
 	margin: 2.5vw;
 }
-form label, form legend {
+form label, form legend, .checkbox{
 	display: block;
-	font-size: 20px;
-	margin: 0 0 10px;
+	font-size: 1.5rem;
+	margin-bottom: .8vh;
 }
-.ipp {
+form select {
+	margin: .6vh 0 1.4vh 0;
+	font-size: 1.3rem;
+}
+.questionario {
 	display: block;
-	margin: 0 0 10px;
-	padding: 10px 25px;
-	width: 30%;
+	margin-bottom: 1vw;
+	padding: 1vw 1.8vh;
+	width: 30vw;
 }
-.checkbox {
-	margin: 20px 0;
+.checkbox input{
+	width: .8vw;
+	height:.8vw;
+}
+fieldset {
+	display: block;
+	width: 29.02vw;
+	padding-left: .8vw;
+	border: #424242 solid 0.01vw;
 }
 .enviar {
-	width: 30%;
-	padding: 15px 0;
-	background: #daa520;
+	margin: 2vw 0 0 7.5vw;
+	width: 15vw;
+	padding: 1vw;
+	background: var(--font-principal);
 	color: white;
 	font-weight: bold;
-	font-size: 20px;
-	border: none;
-	border-radius: 20px;
+	font-size: 1.2rem;
+	border: solid transparent;
+	border-radius: 1vh;
 	transition: 0.4s;
 	cursor: pointer;
 }
 .enviar:hover {
-	background: #ae841a;
+	background: var(--font-escura);
+	border-radius: 2vh;
 	transform: scale(1.1);
 }
-#img_rdp {
-	width: 300;
-}
 footer {
-	margin-top: 70px;
     text-align: center;
     background: #424242;
-    padding: 20px 0;
+	width: 100vw;
+	height: 15vh;
+}
+#img_rdp {
+	width: 12vh;
 }
 #copyright {
-	color: #daa520;
-	font-size: 15px;
-	margin-top: 30px;
-}
-thead {
-	background: #555555;
-	color: white;
-	font-weight: bold;
-}
-td, th {
-	border: 1px solid black;
-	padding: 8px 15px;
-}
+	color: var(--font-principal);
+	font-size: 1.5rem;
+	margin-top: 2vh;
+} */
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
 	.cabeça{
 		width: auto;
 	}
@@ -145,4 +157,4 @@ td, th {
 	    font-size: 11px;
 	    margin: 0 0 10px;
 	}
-}
+} */
