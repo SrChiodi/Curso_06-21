@@ -2,7 +2,7 @@
 	--font-principal: #daa520;
 	--font-escura: #ae841a;
 }
-* {
+body {
 	font-family: 'Cinzel', serif;
 }
 html {
@@ -18,8 +18,6 @@ html {
 	height: 15vh;
 }
 .fot {
-	/* width: 16vw;
-	height: 14vh; */
 	transition: .3s;
 }
 .fot:hover {
