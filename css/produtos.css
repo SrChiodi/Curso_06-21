@@ -1,0 +1,50 @@
+:root {
+	--font-principal: #daa520;
+	--font-escura: #ae841a;
+}
+body {
+	font-family: 'Cinzel', serif;
+}
+main {
+	display: flex;
+	justify-content: center;
+	height: 70vh;
+}
+.produtos {
+	display: flex;
+	justify-content: space-between;
+	width: 80vw;
+	padding: 5vh 0;
+}
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 20vw;
+	padding: 1vw;
+	border: solid black .2vw;
+	border-radius: 1vw;
+	transition: .3s;
+}
+.produtos li:hover {
+	border: solid var(--font-principal) .3vw;
+	color: var(--font-principal);
+	transform: scale(1.1);
+}
+.fotos {
+	padding: 1vw 0;
+	width: 18vw;
+}
+.produtos h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	transition: .3s;
+}
+
+.descrição {
+	font-size: 1.5rem;
+}
+.preço {
+	font-size: 1.7rem;
+	font-weight: bold;
+	margin-top: 10px;
+}
