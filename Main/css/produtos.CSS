@@ -11,7 +11,7 @@ header {
 	padding: 1.5vw;
 	background: #424242;
 	width: 100vw;
-	height: 15vh;
+	height: 10vh;
 }
 .fot {
 	transition: .3s;
@@ -48,7 +48,7 @@ nav a:hover {
 main {
 	display: flex;
 	justify-content: center;
-
+	height: 70vh;
 }
 .produtos {
 	display: flex;
@@ -95,14 +95,13 @@ footer {
 	align-items: center;
 	padding: 1.5vw;
 	background: #424242;
-	position: fixed;
+	position: absolute;
 	bottom: 0;
 	width: 100vw;
-	height: 15vh;
+	height: 10vh;
 }
 #img_rdp {
-	width: 15vw;
-	height: 10vw;
+	width: 10vw;
 	transition: .3s;
 }
 #copyright {
